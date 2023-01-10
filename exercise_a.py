@@ -12,9 +12,23 @@
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 
 stops.append('Edinburgh Waverly')
-print(stops)
 
+stops.insert(0, 'Glasgow Queen Street')
 
+stops.insert(4, 'Polmont')
+
+print(stops.index('Linlithgow'))
+
+stops.remove('Livingston')
+
+del stops[2]
+
+stops.sort()
+
+stops.reverse()
+
+for stop in stops:
+    print(stop)
 
 
 
