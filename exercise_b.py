@@ -70,10 +70,13 @@ avril_pet_species = users["Avril"]["pets"][0]["species"]
 erik_smallest_lotto = min(erik_lotto_num)
 
 # Avrils even lotto numbers
+even_numbers = []
 avril_lotto_num = users["Avril"]["lottery_numbers"]
 for num in avril_lotto_num:
     if num % 2 == 0:
-        print(num)
+        even_numbers.append(num)
+print(even_numbers)
+
 
 # Add to Erik's lotto numbers
 erik_lotto_num.append(7)
