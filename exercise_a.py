@@ -1,30 +1,31 @@
-#1. Add "Edinburgh Waverley" to the end of the list
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 print(stops)
+#1. Add "Edinburgh Waverley" to the end of the list
 
-#2. Add "Glasgow Queen St" to the start of the list
 stops.append('Edinburgh Waverly')
 print(stops)
 
-#3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
+#2. Add "Glasgow Queen St" to the start of the list
+
 stops.insert(0, 'Glasgow Queen Street')
 print(stops)
+#3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
 
-#4. Print out the index position of "Linlithgow"
 stops.insert(4, 'Polmont')
 print(stops)
+#4. Print out the index position of "Linlithgow"
 
-#5. Remove "Livingston" from the list using its name
 print(stops.index('Linlithgow'))
 print(stops)
+#5. Remove "Livingston" from the list using its name
 
-#6. Delete "Cumbernauld" from the list by index
 stops.remove('Livingston')
 print(stops)
-
-#7. Print the number of stops there are in the list
+#6. Delete "Cumbernauld" from the list by index
 del stops[2]
 print(stops)
+#7. Print the number of stops there are in the list
+print(len(stops))
 
 #8. Sort the list alphabetically
 stops.sort()
