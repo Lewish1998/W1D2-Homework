@@ -84,8 +84,8 @@ erik_lotto_num.append(7)
 # Change Eriks Hometown
 erik_hometown = users["Erik"]["home_town"] = ["Edinburgh"]
 
-# Add pet to Erik (Not sure about this one...)
-users["Erik"]["pets"].insert(1, {'name': 'fluffy', 'species': 'dog'})
+# Add pet to Erik 
+users["Erik"]["pets"].insert(0, {'name': 'fluffy', 'species': 'dog'})
 print(users["Erik"]["pets"])
 
 # Add another person

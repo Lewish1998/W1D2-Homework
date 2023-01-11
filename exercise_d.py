@@ -21,14 +21,60 @@ for x in range(0, len(numbers)):
 #    BUT ignore any section of numbers starting with a 6 and extending to the next 7.
 #    So [11, 6, 4, 99, 7, 11] would have sum of 22
 
-# loop through list of numbers
-# find the number 6 by checking number with index ?
-# don't do anything until the same process to find 7 is done
-# continue adding and repeat ^
+for x in range(0, len(numbers)):
+    if numbers[x] == numbers[] and numbers[x] == 2 and numbers[x-1] ==2:
+        # print(True)
+        pass
 
-for x in numbers:
-    if x == 6:
-        numbers[]
+
+
+
+
+
+
+
+
+
+
+
+
+
+# index = 0
+# for x in numbers:
+#     while x != 6 
+
+
+# total = sum(numbers)
+
+
+
+
+
+
+# x = 0
+# for _ in range(0, len(numbers)):
+#     if numbers[x] >=6 and numbers[x] <= 7:
+#         # numbers.remove[x]
+#         print(numbers[x])
+#     else:
+#         x += 1
+# #         print(numbers[x])
+
+# i = 0
+# total = 0
+# for x in numbers:
+#     total += x
+    
+
+    # if x == 6:
+    #     print(total)
+    
+
+
+
+
+
+
 
 
 # 5. HARD! Print the sum of the numbers. 
